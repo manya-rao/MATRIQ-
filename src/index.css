@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    background-color: #FDFBF7;
+    color: #1F2937;
+  }
+}
+
+/* Custom Glassmorphism & High-Touch Styling */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(122, 154, 139, 0.18);
+}
+
+.glass-panel-subtle {
+  background: rgba(253, 251, 247, 0.75);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(217, 119, 87, 0.15);
+}
+
+.glass-emergency {
+  background: rgba(254, 242, 242, 0.95);
+  backdrop-filter: blur(16px);
+  border: 2px solid #DC2626;
+  box-shadow: 0 0 40px rgba(220, 38, 38, 0.35);
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FDFBF7;
+}
+::-webkit-scrollbar-thumb {
+  background: #C4D9CF;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7A9A8B;
+}
+
+/* Glowing animations */
+@keyframes pulse-emergency {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 0 16px rgba(220, 38, 38, 0);
+  }
+}
+
+.animate-pulse-emergency {
+  animation: pulse-emergency 1.8s infinite;
+}
+
+@keyframes pulse-hotspot {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+  50% {
+    transform: scale(1.18);
+    opacity: 1;
+  }
+}
+
+.animate-hotspot {
+  animation: pulse-hotspot 2s ease-in-out infinite;
+}
+
+/* Print Styles for SBAR Clinical Doctor Briefing */
+@media print {
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .sbar-printable {
+    box-shadow: none !important;
+    border: 1px solid #999 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
