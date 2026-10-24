@@ -1,4 +1,5 @@
 MATRIQ — Intelligent Postpartum Recovery Companion
+
 Tagline: Recovery deserves care, too.
 
 MATRIQ is an AI-assisted, WebGL-powered postpartum health technology platform designed specifically for mothers in the critical fourth trimester. Unlike traditional pregnancy or baby-tracking applications, MATRIQ places the mother's physiological recovery, psychological well-being, and urgent safety at the center of the clinical workflow.
