@@ -71,7 +71,7 @@ Existing digital health experiences may address individual aspects of maternal c
 
 MATRIQ brings postpartum recovery tracking, emotional wellness support, safety escalation, and care coordination into a unified web application.
 
-The platform combines structured daily check-ins and deterministic safety rules with optional AI-assisted summaries, interactive recovery visualization, and clinical export capabilities.
+The platform combines structured daily check-ins and deterministic safety rules with optional AI-assisted summarization, interactive recovery visualization, and clinical export capabilities.
 
 Its goal is not to replace professional care, but to help mothers document their experiences and communicate them more effectively.
 
