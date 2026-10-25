@@ -1,6 +1,6 @@
 # MATRIQ — Intelligent Postpartum Recovery Companion
 
-### Recovery deserves care, too. 🌿
+### Recovery deserves care, too. 
 
 MATRIQ is a maternal HealthTech prototype designed to support mothers during postpartum recovery through daily health check-ins, recovery trend visualization, emotional well-being tracking, personalized care planning, and safety-first escalation workflows.
 
@@ -54,7 +54,7 @@ To make postpartum care more continuous, accessible, compassionate, and centered
 
 ## 🎯 Problem Statement
 
-Postpartum mothers may face several challenges:
+Postpartum mothers may face several challenges:-
 
 - Limited opportunities to communicate changes in recovery between medical appointments.
 - Difficulty remembering daily symptoms, bleeding patterns, sleep, and mood changes.
@@ -106,7 +106,7 @@ The visualization can use React Three Fiber for an abstract 3D experience or an 
 
 ### 3. 📊 Daily Check-ins and Recovery Trends
 
-A structured check-in experience records daily observations, including:
+A structured check-in experience records daily observations, including:-
 
 - Physical discomfort on a 0–10 scale.
 - Bleeding flow and reported concerns.
@@ -145,7 +145,7 @@ The report presents user-reported information and does not generate a medical di
 
 A consent-based support hub helps mothers communicate practical needs to trusted people.
 
-Example status updates:
+Example status updates:-
 
 - “I need meals today.”
 - “I need two hours of uninterrupted rest.”
@@ -317,7 +317,7 @@ This is a proposed structure. Adjust it to match the actual repository if its ex
 
 ### Prerequisites
 
-Install the following tools:
+Install the following tools:-
 
 - Node.js 20 or another version supported by the project's Next.js setup.
 - npm.
